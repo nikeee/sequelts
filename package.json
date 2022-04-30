@@ -1,0 +1,32 @@
+{
+  "name": "sequelts",
+  "version": "0.1.0",
+  "description": "Typed raw SQL with zero overhead",
+  "main": "./lib/index.js",
+  "typings": "./lib/index.d.ts",
+  "author": "Niklas Mollenhauer",
+  "keywords": [
+    "sql",
+    "typescript",
+    "static",
+    "types"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tsc --noEmit",
+    "clean": "rm -rv -- lib/* || true",
+    "compile": "tsc",
+    "prepare": "npm run compile"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikeee/sequalts.git"
+  },
+  "homepage": "https://github.com/nikeee/sequalts#readme"
+}

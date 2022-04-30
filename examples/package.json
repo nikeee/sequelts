@@ -1,0 +1,17 @@
+{
+  "name": "sequelts-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sample.js",
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^7.5.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.5.0"
+  }
+}
