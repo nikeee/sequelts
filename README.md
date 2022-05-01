@@ -1,3 +1,7 @@
+<div align=center>
+  <img src="https://user-images.githubusercontent.com/4068864/166162274-e2e4effa-d5fc-4e87-be87-2a24e19c5c91.gif" alt="sequelts Demo">
+</div>
+
 # sequel<i>ts</i>
 <blockquote>
   <dl>
