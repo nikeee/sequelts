@@ -169,11 +169,14 @@ Sequelts requires the queries to be a literal type to parse it at compile-time.
 Other languages solve this with some kind of [Type Providers](https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/), which are a mix of code generation (as part of the language compiler) and some basic abstraction. [They were proposed for TypeScript](https://github.com/microsoft/TypeScript/issues/3136), but they don't align with the goals of TypeScript.
 
 If you want something that's not a hack, try ome of these:
+- [kysely](https://github.com/koskimas/kysely) (query builder with type inference and SQL-Template-Tag)
 - [sqltyper](https://github.com/akheron/sqltyper) (manual code-gen for types)
 - [ts-sql-query](https://github.com/juanluispaz/ts-sql-query) (query builder)
 - [TypeORM](https://github.com/typeorm/typeorm) (class-based ORM, relies on runtime type information)
 - [sequelize](https://github.com/sequelize/sequelize) (class-based ORM)
 - [Some other options](https://phiresky.github.io/blog/2020/sql-libs-for-typescript/)
+
+From the list above, kysely comes closest to what this project tries to achieve from the type inference perspective.
 
 There are advantages of using one of the above: Some of them come with automatic schema migration, if you need that.
 
